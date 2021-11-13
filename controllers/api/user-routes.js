@@ -131,10 +131,9 @@ router.post('/login', (req, res) => {
 });
 
 router.post('/logout', (req, res) => {
-    if (req.session.loggedIn) {
-        req.session.destroy(() => {
-            res.status(204).end();
-        });
+    if (req.session.loggedIn === true) {
+        req.session.destroy();
+        res.redirect('/')
     }
     else {
         res.status(404).end();

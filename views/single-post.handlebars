@@ -10,7 +10,7 @@
         <a href="/post/{{post.id}}">{{post.comments.length}} comment(s)</a>
     </div>
 </article>
-
+{{#if loggedIn}}
 <form class="comment-form">
     <div>
         <textarea name="comment-text" id="comment-text" cols="30" rows="10"></textarea>
@@ -20,6 +20,7 @@
         <button type="submit">Post Comment</button>
     </div>
 </form>
+{{/if}}
 
 <div class="comment-container">
     {{#each post.comments}}
@@ -29,3 +30,6 @@
     </section>
     {{/each}}
 </div>
+{{#if loggedIn}}
+<script src="/javascript/comment.js"></script>
+{{/if}}
