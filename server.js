@@ -6,7 +6,7 @@ const app = express();
 const PORT = process.envPORT || 3001;
 
 app.use(express.json());
-app.use(express.urlencoded({ extended: true }));
+app.use(express.urlencoded({ extended: false }));
 
 app.use(routes);
 
