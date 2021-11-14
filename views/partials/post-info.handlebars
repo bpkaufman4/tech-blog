@@ -1,12 +1,12 @@
-<article>
+<article class="blog-post">
     <div>
-        <h1>{{title}}</h1>
+        <h1 class="post-title">{{title}}</h1>
     </div>
     <div>
-        <p>{{content}}</p>
+        <p class="post-content">{{content}}</p>
     </div>
     <div>
-        <p>created by {{user.username}} on {{format_date created_at}}</p>
-        <a href="/post/{{id}}">{{comments.length}} {{format_plural "comment" comments.length}}</a>
+        <p class="created-by">created by {{user.username}} on {{format_date created_at}}</p>
+        <a class="comment-link" href="/post/{{id}}">{{comments.length}} {{format_plural "comment" comments.length}}</a>
     </div>
 </article>

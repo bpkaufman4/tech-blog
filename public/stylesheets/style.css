@@ -1,0 +1,108 @@
+body, h1 {
+    margin: 0;
+}
+
+body {
+    background: #eef;
+    font-family: 'Palanquin Dark', sans-serif;
+}
+
+.main {
+    padding: 50px;
+    margin-top: 75px;
+    padding-bottom: 0;
+}
+
+header h1 {
+    width: auto;
+    float: left;
+    height: 75px;
+    padding-top: 6px;
+}
+
+h2 {
+    text-align: center;
+}
+
+button {
+    background-color: #334;
+    color: #ccd;
+    border: #ccd solid 1px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100px;
+    margin: 0 calc(50% - 50px);
+}
+
+header {
+    background-color: #334;
+    height: 75px;
+    padding: 0 40px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    position: fixed;
+    width: calc(100% - 75px);
+    margin-top: -75px;
+}
+
+nav a {
+    width: auto;
+    float: right;
+    height: 80px;
+    margin-top: -5px;
+    padding: 28px;
+    box-sizing: border-box;
+    cursor: pointer;
+    text-decoration: none;
+    color: #dde;
+}
+
+nav a:hover {
+    color: #334;
+    background-color: #dde;
+}
+
+h1 a {
+    height: 75px;
+    text-decoration: none;
+    color:#dde;
+}
+
+h1 a:hover {
+    background: #dde;
+    color: #334;
+}
+
+ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.blog-post, form {
+    background: #fff;
+    margin-top: 20px;
+    border: 1px solid #ccd;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+input {
+    width: calc(100% - 10px);
+    border-radius: 5px;
+    border: #ccd solid 1px;
+    padding: 5px;
+    text-align: center;
+}
+
+textarea {
+    width: calc(100% - 5px);
+    margin-top: 10px;
+    resize: none;
+    height: 50px;
+    border: #ccd solid 1px;
+    border-radius: 5px;
+}
+
+.login-form button, .signup-form button {
+    margin-top: 20px;
+}
