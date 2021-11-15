@@ -1,6 +1,6 @@
 // import sequelize constructor
-const sequelize = require('sequelize');
-
+const Sequelize = require('sequelize');
+var sequelize;
 // bring in dovenv
 require('dotenv').config();
 
