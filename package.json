@@ -24,9 +24,8 @@
     "express": "^4.17.1",
     "express-handlebars": "^5.3.5",
     "express-session": "^1.17.2",
-    "mysql2": "^2.3.3-rc.0",
-    "sequelize": "^6.9.0",
-    "type": "^2.5.0"
+    "mysql2": "^2.3.0",
+    "sequelize": "^6.6.5"
   },
   "devDependencies": {
     "@types/express-session": "^1.17.0"
